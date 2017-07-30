@@ -1,3 +1,70 @@
 /**
  * Created by zhang on 2017/7/30.
  */
+$(document).ready(function(){
+    $(".gsjj").click(function(){
+        $(".fade").show();
+        $(".gsjj_sub").fadeIn();
+    });
+    $(".hzhb").click(function(){
+        $(".fade").show();
+        $(".hzhb_sub_").fadeIn();
+    });
+    $(".gscq").click(function(){
+        $(".fade").show();
+        $(".gscq_sub").fadeIn();
+    });
+    $(".qyzz").click(function(){
+        $(".fade").show();
+        $(".qyzz_sub").fadeIn();
+    });
+    $(".scsb").click(function(){
+        $(".fade").show();
+        $(".scsb_sub").fadeIn();
+    });
+    $(".re1").click(function(){
+        $(".fade").show();
+        $(".re1_").fadeIn();
+    });
+    $(".re2").click(function(){
+        $(".fade").show();
+        $(".re2_").fadeIn();
+    });
+    $(".re3").click(function(){
+        $(".fade").show();
+        $(".re3_").fadeIn();
+    });
+    $(".re4").click(function(){
+        $(".fade").show();
+        $(".re4_").fadeIn();
+    });
+    $(".an1").click(function(){
+        $(".fade").show();
+        $(".en1").fadeIn();
+    });
+    $(".an2").click(function(){
+        $(".fade").show();
+        $(".en2").fadeIn();
+    });
+    $(".an3").click(function(){
+        $(".fade").show();
+        $(".en3").fadeIn();
+    });
+    $(".an4").click(function(){
+        $(".fade").show();
+        $(".en4").fadeIn();
+    });
+    $(".an5").click(function(){
+        $(".fade").show();
+        $(".en5").fadeIn();
+    });
+    $(".an6").click(function(){
+        $(".fade").show();
+        $(".en6").fadeIn();
+    });
+
+
+    $(".fade").click(function(){
+        $(".pop,.fade").fadeOut();
+    });
+});
